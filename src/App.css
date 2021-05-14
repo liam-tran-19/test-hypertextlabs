@@ -52,9 +52,19 @@ body {
   margin-bottom: 0;
 }
 
+.action {
+  display: flex;
+}
+
 .nasa-photo .date {
   margin-top: 0;
   margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.date-show {
+  display: flex;
+  
 }
 
 .nasa-photo .explanation {
@@ -95,4 +105,15 @@ body {
 .home-link:hover {
   border-radius: 5px;
   background: #e77171;
+}
+
+
+.favorite-pictures {
+display: flex;
+flex-direction: row;
+}
+
+.img-show {
+  width: 100px;
+  margin: 0 5px;
 }
