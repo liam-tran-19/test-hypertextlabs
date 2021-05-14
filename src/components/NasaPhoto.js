@@ -36,7 +36,7 @@ export default function NasaPhoto() {
         }
       }
     }
-  }, [startDate, favor]);
+  }, [startDate]);
   console.log(favor);
   const dispatch = useDispatch();
 
